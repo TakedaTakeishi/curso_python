@@ -15,18 +15,40 @@ Curso práctico de Python 3 pensado para quienes vienen de C (o algún lenguaje)
 - Python 3.14 o superior
 - [uv](https://docs.astral.sh/uv/) (gestor de proyectos y paquetes)
 
-## Cómo usar
+## Instalación
+
+### 1. Instalar uv
+
+Si aún no tienes `uv` instalado, sigue las instrucciones oficiales según tu sistema operativo:
+
+- **Windows (PowerShell):**
+  ```powershell
+  powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+  ```
+- **Linux/macOS:**
+  ```bash
+  curl -LsSf https://astral.sh/uv/install.sh | sh
+  ```
+
+También puedes instalarlo con pip: `pip install uv`, o con tu gestor de paquetes favorito (brew, winget, etc.). Más información en la [documentación oficial](https://docs.astral.sh/uv/#installation).
+
+### 2. Clonar y preparar el entorno
 
 ```bash
 # Clonar el repositorio
 git clone <url-del-repo>
 cd curso_takeishi
 
-# Iniciar Jupyter
+# Sincronizar dependencias (crea el .venv e instala Jupyter, ipykernel, etc.)
+uv sync
+
+# Iniciar Jupyter Notebook
 uv run jupyter notebook
 ```
 
-O desde VS Code: abre la carpeta, selecciona el kernel `.venv` en la pestaña de selección dentro del jupyter notebook y ejecuta las celdas.
+O desde VS Code: abre la carpeta, selecciona el kernel `.venv` en la pestaña de selección dentro del Jupyter Notebook y ejecuta las celdas.
+
+> **Nota:** `uv sync` instala todo lo necesario según `pyproject.toml`. No es necesario activar el entorno manualmente — `uv run` lo maneja automáticamente.
 
 ## Material de referencia
 
