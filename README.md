@@ -1,4 +1,4 @@
-# Curso Takeishi — Python desde Cero
+# Curso Takeishi — Python desde las bases
 
 Curso práctico de Python 3 pensado para quienes vienen de C (o algún lenguaje) y quieren aprender Python con fundamentos sólidos. Cada clase alterna teoría con ejemplos ejecutables en Jupyter Notebooks.
 
@@ -56,7 +56,7 @@ También puedes instalarlo con pip: `pip install uv`, o con tu gestor de paquete
 
 ```bash
 # Clonar el repositorio
-git clone <url-del-repo>
+git clone https://github.com/TakedaTakeishi/curso_python
 cd curso_takeishi
 
 # Sincronizar dependencias (crea el .venv e instala Jupyter, ipykernel, etc.)
