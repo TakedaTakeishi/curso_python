@@ -84,6 +84,21 @@ El alumno no puede usar variables, bucles, ni funciones definidas por el usuario
 **Contenido:**
 - Extensión de archivos `.py` y convención `if __name__ == '__main__':`.
 - Función `print()` en profundidad: `sep`, `end`, formato, redirección.
+- **Tipos de impresión con f-strings (format spec):**
+  - `:d` — entero decimal
+  - `:f` — flotante (por defecto 6 decimales)
+  - `:.2f` — flotante con 2 decimales
+  - `:e` — notación científica
+  - `:%` — porcentaje
+  - `:x` o `:X` — hexadecimal (minúsculas/mayúsculas)
+  - `:o` — octal
+  - `:b` — binario
+  - `:c` — carácter (Unicode)
+  - `:>10` — alineado a la derecha, ancho 10
+  - `:^10` — centrado, ancho 10
+  - `:0>5` — rellenar con ceros, ancho 5
+  - `:_` — separador de miles
+  - `:,.2f` — separador de miles + 2 decimales
 - Tipado dinámico: las variables son referencias, no contenedores.
 - **Identidad de objetos:** `id()` y el operador `is` (referencia a Corcuera, IntroPython).
 - Regla de oro: `==` para valores, `is` para identidad (usar solo con `None`, `True`, `False`).
@@ -607,17 +622,17 @@ Las peticiones de red asíncronas completas no son mandatorias, pero se espera e
 
 Se cubrirán 9 clases (las marcadas con prioridad alta):
 
-| # | Clase |
-|---|---|
-| 1 | Introducción |
-| 2 | Tipos y Operadores | 
-| 4 | Control de Flujo |
-| 5 | Funciones y Recursividad |
-| 12 | Archivos y Excepciones |
-| 13 | POO Fundamental |
-| 14 | POO Avanzada |
-| 18 | Decoradores y Generadores |
-| 19 | Patrones de Diseño |
+| # | Clase | Notebook |
+|---|---|---|
+| 1 | Introducción | [`clase_1.ipynb`](clases/clase_1.ipynb) |
+| 2 | Tipos y Operadores | [`clase_2.ipynb`](clases/clase_2.ipynb) |
+| 4 | Control de Flujo | [`clase_4.ipynb`](clases/clase_4.ipynb) |
+| 5 | Funciones y Recursividad | [`clase_5.ipynb`](clases/clase_5.ipynb) |
+| 12 | Archivos y Excepciones | [`clase_12.ipynb`](clases/clase_12.ipynb) |
+| 13 | POO Fundamental | [`clase_13.ipynb`](clases/clase_13.ipynb) |
+| 14 | POO Avanzada | [`clase_14.ipynb`](clases/clase_14.ipynb) |
+| 18 | Decoradores y Generadores | [`clase_18.ipynb`](clases/clase_18.ipynb) |
+| 19 | Patrones de Diseño | [`clase_19.ipynb`](clases/clase_19.ipynb) |
 
 ---
 
