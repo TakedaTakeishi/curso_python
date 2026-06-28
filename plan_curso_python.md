@@ -603,21 +603,21 @@ Las peticiones de red asíncronas completas no son mandatorias, pero se espera e
 
 ---
 
-## Curso especial (este semestre)
+## Curso rápido
 
-Para el semestre actual, se cubrirán 9 clases (las marcadas con prioridad alta):
+Se cubrirán 9 clases (las marcadas con prioridad alta):
 
-| # | Clase | Estado |
-|---|---|---|
-| 1 | Introducción | Presencial (existente) |
-| 2 | Tipos y Operadores | ✅ Hecha |
-| 4 | Control de Flujo | ❌ Por hacer |
-| 5 | Funciones y Recursividad | ❌ Por hacer |
-| 12 | Archivos y Excepciones | ❌ Por hacer |
-| 13 | POO Fundamental | ❌ Por hacer |
-| 14 | POO Avanzada | ❌ Por hacer |
-| 18 | Decoradores y Generadores | ❌ Por hacer |
-| 19 | Patrones de Diseño | ❌ Por hacer |
+| # | Clase |
+|---|---|
+| 1 | Introducción |
+| 2 | Tipos y Operadores | 
+| 4 | Control de Flujo |
+| 5 | Funciones y Recursividad |
+| 12 | Archivos y Excepciones |
+| 13 | POO Fundamental |
+| 14 | POO Avanzada |
+| 18 | Decoradores y Generadores |
+| 19 | Patrones de Diseño |
 
 ---
 
